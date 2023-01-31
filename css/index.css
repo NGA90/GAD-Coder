@@ -769,6 +769,10 @@ li:hover {
   color: #0096a1;
 }
 
+.tarjeta__profesional-content>h3{
+  text-shadow: 1px 1px 2px #0096a1;
+}
+
 .tarjeta__profesional1:hover , .tarjeta__profesional12:hover, .tarjeta__profesional2:hover, .tarjeta__profesional3:hover, .tarjeta__profesional4:hover,
 .tarjeta__profesional5:hover, .tarjeta__profesional6:hover, .tarjeta__profesional7:hover, .tarjeta__profesional8:hover, .tarjeta__profesional9:hover,
 .tarjeta__profesional10:hover, .tarjeta__profesional11:hover{ 
@@ -981,6 +985,7 @@ select {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 10px;
 }
 
 .tratamientosCorporales__Cards {
@@ -988,7 +993,6 @@ select {
   flex-direction: column;
   width: 40vw;
   height: fit-content;
-  padding-top: 10px;
   margin: 5px;
   text-align: center;
   transition: all 1s;
@@ -998,6 +1002,7 @@ select {
 .tratamientosCorporales__Cards-img {
   width: 40vw;
   height: 20vh;
+  object-fit: cover;
 }
 
 .tratamientosCorporales__Cards-img > img {
