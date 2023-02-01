@@ -506,7 +506,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2022/12/1-19.jpg);
+  background-image: url(../resources/nuestrequipo/1.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -528,7 +528,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2022/12/gina-mix-fausta-foto-1.jpg);
+  background-image: url(../resources/nuestrequipo/2.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -550,7 +550,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2023/01/Olivia-poly-blanco-foto-2-1.jpg);
+  background-image: url(../resources/nuestrequipo/3.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -572,7 +572,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2023/01/1-20.jpg);
+  background-image: url(../resources/nuestrequipo/4.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -594,7 +594,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2022/12/1-21.jpg);
+  background-image: url(../resources/nuestrequipo/5.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -616,7 +616,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2023/01/1-17.jpg);
+  background-image: url(../resources/nuestrequipo/6.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -638,7 +638,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2023/01/1-14.jpg);
+  background-image: url(../resources/nuestrequipo/7.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -660,7 +660,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2023/01/4-2.jpg);
+  background-image: url(../resources/nuestrequipo/8.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -682,7 +682,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2022/08/1-8.jpg);
+  background-image: url(../resources/nuestrequipo/9.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -704,7 +704,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2022/09/Oh-Wear-11-03-22-255.jpg);
+  background-image: url(../resources/nuestrequipo/10.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -726,7 +726,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2022/12/Lado-x-5-azul-foto-3.jpg);
+  background-image: url(../resources/nuestrequipo/11.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -748,7 +748,7 @@ li:hover {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(https://oh-wear.com/wp-content/uploads/2022/12/olivia-sparciel-lila-foto-1.jpg);
+  background-image: url(../resources/nuestrequipo/12.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -878,22 +878,34 @@ select {
 }
 
 .logo__Whatsapp {
-  position: fixed;
-  z-index: 1000;
-  left: 95%;
-  top: 90%;
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:30px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  
 }
 
-.logo__Whatsapp > a > i {
-  font-size: 60px;
-  text-decoration: none;
-  color: #075e54;
-  transition: all 1s;
+.logo__Whatsapp i{
+  color: #fff;
+  font-size: 40px;
+  transition-property: color, transform;
+  transition-duration: 1s;
 }
 
-.logo__Whatsapp > a > i:hover {
-  color: #25d366;
-  scale: 1.2;
+.icon__Whatsapp{
+	margin-top:10px;
+}
+
+.logo__Whatsapp i:hover{
+  transform: scale(1.1);
+  color: #5f4ff7;
 }
 
 .depilacion{
@@ -906,19 +918,25 @@ select {
 .depilacion-img {
   opacity: 80%;
   height: 30vh;
-  background-image: url(../resources/limpiezaFacial.jpg);
+  background-image: url(../resources/depilacion.jpg);
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% 75%;
   text-align: center;
 }
 
 .depilacion-img > h3 {
-  margin-top: 80px;
-  color: #000;
+  margin-top: 100px;
+  color: #fff;
   font-weight: bold;
   font-size: 25px;
   text-shadow: 1px 1px 2px #0096a1;
   opacity: 100%;
+}
+
+.depilacion__Container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .depilacion__Cards{
@@ -933,7 +951,7 @@ select {
 }
 
 .depilacion__Cards-img{
-  width: 80vw;
+  width: 40vw;
   height: 20vh;
   object-fit: cover;
 }
@@ -943,14 +961,8 @@ select {
   height: 100%;
   object-fit: cover;
   border-radius: 40px;
+  object-position: 0% 60%;
 }
-
-.depilacion__Cards-content>h3{
-  text-transform: uppercase;
-  color: #0096a1;
-
-}
-
 
 .tratamientosFaciales {
   display: flex;
@@ -961,15 +973,16 @@ select {
 .tratamientosFaciales-img {
   opacity: 80%;
   height: 30vh;
-  background-image: url(../resources/limpiezaFacial.jpg);
+  background-image: url(../resources/limpiezaFacial\ \(1\).jpg);
   background-size: cover;
-  background-position: 50%;
+  background-position: 0% 28%;
   text-align: center;
+  
 }
 
 .tratamientosFaciales-img > h3 {
-  margin-top: 80px;
-  color: #000;
+  margin-top: 100px;
+  color: #fff;
   font-weight: bold;
   font-size: 25px;
   text-shadow: 1px 1px 2px #0096a1;
@@ -1020,15 +1033,15 @@ select {
 .tratamientosCorporales-img {
   opacity: 80%;
   height: 30vh;
-  background-image: url(https://www.cimelh.com.ar/wp-content/uploads/bfi_thumb/reduccion-de-medidas-elimina-la-celulitis-tratamientos-corporales-ultracavitacion-n7jzih1gdwrere061n8tdd7dv264dj646gogz3odqg.jpg);
+  background-image: url(../resources/tratamientosCorporales.jpg);
   background-size: cover;
   background-position: 90%;
   text-align: center;
 }
 
 .tratamientosCorporales-img > h3 {
-  margin-top: 80px;
-  color: #000;
+  margin-top: 100px;
+  color: #fff;
   font-weight: bold;
   font-size: 25px;
   text-shadow: 1px 1px 2px #0096a1;
@@ -1072,15 +1085,15 @@ select {
 }
 
 .tratamientosCorporales__Cards-content > h3,
-.tratamientosFaciales__Cards-content > h3 {
+.tratamientosFaciales__Cards-content > h3,
+.depilacion__Cards-content >h3 {
   text-transform: uppercase;
   color: #0096a1;
+  font-weight: 800;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1500px) {
-  .logo__Whatsapp {
-    left: 94%;
-  }
+ 
 
   .tarjeta {
     padding-top: 60px;
@@ -1092,32 +1105,6 @@ select {
 
   .navbar {
     display: block;
-  }
-
-  .galeria__container {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(auto-fill, 1fr);
-    gap: 5px;
-  }
-
-  .galeria__container img:first-child {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .galeria__container img:nth-child(6) {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .galeria__container img:nth-child(10) {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .galeria__container img:nth-child(14) {
-    grid-column: auto;
-    grid-row: auto;
   }
 
   .especialidad {
@@ -1151,15 +1138,20 @@ select {
 }
 
 @media screen and (min-width: 100px) and (max-width: 1000px) {
-  .logo__Whatsapp {
-    left: 85%;
+
+
+
+  .especialidad__card button {
+    font-size: 12px;
+    font: bold;
+    padding: 6px 12px;
   }
 
   .carousel {
     padding-top: 60px;
   }
 
-   .btn-carousel{
+  .btn-carousel{
     margin-top: 10px;
   }
 
@@ -1276,32 +1268,6 @@ select {
     font-size: 16px;
   }
 
-  .galeria__container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(auto-fill, 1fr);
-    gap: 5px;
-  }
-
-  .galeria__container img:first-child {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .galeria__container img:nth-child(6) {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .galeria__container img:nth-child(10) {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .galeria__container img:nth-child(14) {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
   .especialidad {
     justify-content: center;
     padding-top: 60px;
@@ -1325,16 +1291,24 @@ select {
   }
 
   .especialidad__card {
-    width: 100vw;
+    width: 90vw;
     height: fit-content;
     justify-content: flex-start;
+    padding: 10px 0 10px 0;
+  }
+
+  .depilacion__Cards{
+    padding: 10px 0 10px 0;
+    width: 90vw;
+    height: fit-content;
   }
 
   .tratamientosFaciales__Cards {
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 100vw;
+    width: 90vw;
     height: fit-content;
+    padding: 10px 0 10px 0;
   }
 
   .tratamientosFaciales__Cards-img {
@@ -1345,13 +1319,22 @@ select {
   .tratamientosCorporales__Cards {
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 100vw;
+    width: 90vw;
     height: fit-content;
+    padding: 10px 0 10px 0;
   }
 
   .tratamientosCorporales__Cards-img {
     width: 100%;
     object-fit: cover;
+  }
+
+  .depilacion__Container button,
+  .tratamientosCorporales__Container button,
+  .tratamientosFaciales__Container button{
+    font-size: 12px;
+    font: bold;
+    padding: 6px 12px;
   }
 
   .navbar-b {
@@ -1367,7 +1350,7 @@ select {
   .tarjeta { 
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1fr);
-    gap: 2px 2px;
+    gap: 15px 0px;
     grid-auto-flow: row;
     grid-template-areas:
       "tarjeta__profesional1"
@@ -1424,7 +1407,7 @@ select {
 
   .tarjeta__profesional1, .tarjeta__profesional2, .tarjeta__profesional3, .tarjeta__profesional4, .tarjeta__profesional5, .tarjeta__profesional6,
   .tarjeta__profesional7, .tarjeta__profesional8,.tarjeta__profesional9, .tarjeta__profesional10,.tarjeta__profesional11, .tarjeta__profesional12{
-    width: 100vw;
+    width: 80vw;
   }
 
 
