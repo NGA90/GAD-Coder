@@ -943,15 +943,17 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50vw;
   height: fit-content;
   margin: 5px;
   transition: all 1s;
   border-radius: 40px;
   text-align: center;
+  transition: all 1s;
 }
 
 .depilacion__Cards-img{
-  width: 40vw;
+  width: 50vw;
   height: 20vh;
   object-fit: cover;
 }
@@ -1007,7 +1009,8 @@ select {
 }
 
 .tratamientosFaciales__Cards:hover,
-.tratamientosCorporales__Cards:hover {
+.tratamientosCorporales__Cards:hover,
+.depilacion__Cards:hover {
   background: #dfdfdf;
 }
 
