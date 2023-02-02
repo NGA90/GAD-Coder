@@ -33,6 +33,8 @@ a:visited {
   color: #000;
 }
 
+/* NAVBAR-NAVBAR RESPONSIVE */
+
 .navbar {
   display: none;
 }
@@ -153,11 +155,7 @@ li:hover {
   color: #0096a1;
 }
 
-/* .navbar__listaMenu__boton:hover{
-    background-color: rgb(140, 252, 164);
-    border-radius: 2em;
-    color: #bbb;
-} */
+/* INDEX */
 .carousel {
   padding-top: 58px;
 }
@@ -253,7 +251,8 @@ li:hover {
   transition-duration: 1s;
 }
 
-.main__rehab-btn:hover {
+.main__rehab-btn:hover,
+.main__esthetic-btn:hover {
   background-color: #5f4ff7;
   scale: 1.2;
   border: 2px solid #fff;
@@ -281,12 +280,6 @@ li:hover {
   left: 45%;
   transition-property: background, scale, border;
   transition-duration: 1s;
-}
-
-.main__esthetic-btn:hover {
-  background-color: #5f4ff7;
-  scale: 1.2;
-  border: 2px solid #fff;
 }
 
 .main__coberturas {
@@ -334,12 +327,7 @@ li:hover {
   margin: 5px;
 }
 
-.main__coberturas-btn:hover {
-  background-color: #5f4ff7;
-  scale: 1.2;
-  border: 2px solid #c4c4c4;
-  margin: 10px;
-}
+/* FOOTER */
 
 .footer {
   background: #d8d8d8;
@@ -388,6 +376,8 @@ li:hover {
   transition: 0.4s;
 }
 
+/* ESPECIALIDADES */
+
 .especialidad {
   padding-top: 70px;
   display: flex;
@@ -430,7 +420,6 @@ li:hover {
 
 .especialidad__card__img > img {
   min-width: 80%;
-  /* border-radius: 50%; */
 }
 
 .especialidad__card button {
@@ -455,6 +444,8 @@ li:hover {
   text-decoration: none;
   color: #fff;
 }
+
+/* NUESTRO EQUIPO */
 
 .tarjeta {  
   padding-top: 100px;
@@ -781,6 +772,7 @@ li:hover {
   -moz-box-shadow: 10px 10px 94px -1px rgba(0,0,0,0.75);
 }
 
+/* CONTACTO */
 .form__container {
   display: flex;
   flex-direction: column;
@@ -877,6 +869,8 @@ select {
   padding: 10px;
 }
 
+/* LOGO WHATSAPP FIXED */
+
 .logo__Whatsapp {
   position:fixed;
 	width:60px;
@@ -907,6 +901,8 @@ select {
   transform: scale(1.1);
   color: #5f4ff7;
 }
+
+/* ESTETICA */
 
 .depilacion{
   padding-top: 59px;
@@ -1095,23 +1091,14 @@ select {
   font-weight: 800;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
  
-
-  .tarjeta {
-    padding-top: 60px;
-  }
-
   .navbar__normal {
     display: none;
   }
 
   .navbar {
     display: block;
-  }
-
-  .especialidad {
-    justify-content: center;
   }
 
   .main__rehab-btn {
@@ -1126,32 +1113,93 @@ select {
     left: 40%;
   }
 
-  .form__container {
-    padding-top: 60px;
+  .especialidad {
+    justify-content: center;
+    
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px){
+
+  .navbar__normal {
+    display: none;
   }
 
-  .carousel {
-    padding-top: 60px;
+  .navbar {
+    display: block;
+  }
+
+  .main__description {
+    display: none;
+  }
+
+  .main__description-responsive > p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .main__description-responsive {
+    grid-column: 1/5;
+    grid-row: 2/2;
+    height: 100px;
+    display: block;
+  }
+
+  .main__coberturas {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .main__coberturas__img {
+    align-items: center;
+  }
+
+  .main__coberturas-img {
+    max-width: 40vw;
+  }
+
+  .main__coberturas-btn {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  .main__rehab-btn {
+    position: relative;
+    bottom: 55%;
+    left: 30%;
+  }
+
+  .main__esthetic-btn {
+    position: relative;
+    bottom: 55%;
+    left: 40%;
   }
 
   .especialidad {
     justify-content: center;
-    padding-top: 60px;
   }
+
 }
 
-@media screen and (min-width: 100px) and (max-width: 1000px) {
+@media screen and (min-width: 100px) and (max-width: 799px) {
 
-
-
-  .especialidad__card button {
-    font-size: 12px;
-    font: bold;
-    padding: 6px 12px;
+  .navbar__normal {
+    display: none;
   }
 
-  .carousel {
-    padding-top: 60px;
+  .navbar {
+    display: block;
+  }
+
+  .navbar-b {
+    color: #5f6b6e;
+    font-size: 10px;
+    width: 20vh;
+    text-align: center;
+    animation: opacidad;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
   }
 
   .btn-carousel{
@@ -1212,14 +1260,6 @@ select {
     border: 2px solid #fff;
   }
 
-  .navbar__normal {
-    display: none;
-  }
-
-  .navbar {
-    display: block;
-  }
-
   .main__description {
     display: none;
   }
@@ -1254,13 +1294,9 @@ select {
     max-width: 40vw;
   }
 
-  .main__coberturas-btn {
+  .main__coberturas a button {
     font-size: 16px;
     padding: 6px 12px;
-  }
-
-  .form__container {
-    padding-top: 60px;
   }
 
   .form-img img {
@@ -1268,16 +1304,6 @@ select {
   }
 
   .footer {
-    font-size: 16px;
-  }
-
-  .especialidad {
-    justify-content: center;
-    padding-top: 60px;
-  }
-
-  .footer {
-    background-color: #b4b4b4;
     display: flex;
     font-size: 15px;
     text-align: center;
@@ -1289,8 +1315,14 @@ select {
     max-width: 200px;
   }
 
-  .tarjeta {
-    padding-top: 60px;
+  .especialidad {
+    justify-content: center;
+  }
+
+  .especialidad__card button {
+    font-size: 12px;
+    font: bold;
+    padding: 6px 12px;
   }
 
   .especialidad__card {
@@ -1340,14 +1372,15 @@ select {
     padding: 6px 12px;
   }
 
-  .navbar-b {
-    color: #5f6b6e;
-    font-size: 10px;
-    width: 20vh;
-    text-align: center;
-    animation: opacidad;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
+  
+  .depilacion__Cards-img{
+    width: 100%;
+  }
+
+  .tratamientosCorporales__Cards-content h3,
+  .tratamientosFaciales__Cards-content h3,
+  .depilacion__Cards-content h3{
+    padding-top: 10px;
   }
 
   .tarjeta { 
@@ -1410,6 +1443,5 @@ select {
   .tarjeta__profesional7, .tarjeta__profesional8,.tarjeta__profesional9, .tarjeta__profesional10,.tarjeta__profesional11, .tarjeta__profesional12{
     width: 80vw;
   }
-
 
 }
