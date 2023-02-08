@@ -614,7 +614,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/1.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -627,6 +626,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/1.jpg);
 }
 .tarjeta .tarjeta__profesional2 {
   display: flex;
@@ -635,7 +635,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/2.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -648,6 +647,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/2.jpg);
 }
 .tarjeta .tarjeta__profesional3 {
   display: flex;
@@ -656,7 +656,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/3.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -669,6 +668,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/3.jpg);
 }
 .tarjeta .tarjeta__profesional4 {
   display: flex;
@@ -677,7 +677,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/4.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -690,6 +689,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/4.jpg);
 }
 .tarjeta .tarjeta__profesional5 {
   display: flex;
@@ -698,7 +698,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/5.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -711,6 +710,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/5.jpg);
 }
 .tarjeta .tarjeta__profesional6 {
   display: flex;
@@ -719,7 +719,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/6.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -732,6 +731,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/6.jpg);
 }
 .tarjeta .tarjeta__profesional7 {
   display: flex;
@@ -740,7 +740,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/7.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -753,6 +752,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/7.jpg);
 }
 .tarjeta .tarjeta__profesional8 {
   display: flex;
@@ -761,7 +761,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/8.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -774,6 +773,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/8.jpg);
 }
 .tarjeta .tarjeta__profesional9 {
   display: flex;
@@ -782,7 +782,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/9.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -795,6 +794,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/9.jpg);
 }
 .tarjeta .tarjeta__profesional10 {
   display: flex;
@@ -803,7 +803,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/10.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -816,6 +815,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/10.jpg);
 }
 .tarjeta .tarjeta__profesional11 {
   display: flex;
@@ -824,7 +824,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/11.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -837,6 +836,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/11.jpg);
 }
 .tarjeta .tarjeta__profesional12 {
   display: flex;
@@ -845,7 +845,6 @@ a:visited {
   margin-top: 5px;
   width: 20vw;
   height: 50vh;
-  background-image: url(../resources/nuestrequipo/12.jpg);
   background-size: cover;
   background-position: top;
   border-radius: 0px 0px 103px 103px;
@@ -858,6 +857,7 @@ a:visited {
   box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
   -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+  background-image: url(../resources/nuestrequipo/12.jpg);
 }
 .tarjeta .tarjeta__profesional-content p {
   font-weight: 500;
