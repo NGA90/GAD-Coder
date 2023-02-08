@@ -10,7 +10,7 @@
         display: block;
 
         .navbar-b {
-            color: #5f6b6e;
+            color: $border-primary;
             font-size: 10px;
             width: 20vh;
             text-align: center;
@@ -48,7 +48,7 @@
         
         b{
         padding-left: 20px;
-        color: #5f6b6e;
+        color: $border-primary;
         animation-name: opacidad;
         animation-duration: 2s;
         animation-direction: alternate;
@@ -79,26 +79,26 @@
         }
 
         a{
-            color: #5f6b6e;
+            color: $border-primary;
             text-decoration: none;
             text-transform: uppercase;
         cursor: pointer;
         }
 
         a:hover, li:hover{
-            color: #5f4ff7;
+            color: $color-hover-btn;
             transition: 0.4s;
         }
 }
 
 .navbar__listaMenu--activo{
-    color: #0096a1;
+    color: $color-primario-btn;
 
     a{
-        color: #0096a1
+        color: $color-primario-btn
     }
 
     i{
-        color: #0096a1
+        color: $color-primario-btn
     }
 }

@@ -15,16 +15,18 @@
     .carousel-caption{
         h5{
             color: #fff;
-            font: bold;
-            font-size: 20px;
-            text-shadow: 1px 1px 2px #0096a1;
+            font-family: $typo-primary;
+            font-weight: 800;
+            font-size: 30px;
+            text-shadow: 1px 1px 2px $color-primario-btn;
         }
 
         p{
             color: #fff;
-            font: bold;
+            font-family: $typo-primary;
+            font-weight: 500;
             font-size: 20px;
-            text-shadow: 1px 1px 2px #0096a1;
+            text-shadow: 1px 1px 2px $color-primario-btn;
         }
     }
 
@@ -53,9 +55,9 @@
         align-self: center;
 
         h1{
-            font: bold;
+            font-weight: 800;
             font-size: 40px;
-            color: #0096a1;
+            color: $color-primario-btn;
             padding-top: 10px;
         }
 
@@ -71,7 +73,10 @@
 
         p{
             text-align: center;
-            font-size: 18px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            font-family: $typo-primary;
+            font-weight: 400;
         }
     }
 
@@ -84,7 +89,7 @@
         grid-row: 3/5;
         width: 100%;
         height: 80%;
-        background-color: #5f6b6e;
+        background-color: $border-primary;
 
         img{
             width: 100%;
@@ -101,7 +106,7 @@
             transition-duration: 1s;
 
             :hover{
-                background-color: #5f4ff7;
+                background-color: $color-hover-btn;
                 scale: 1.2;
                 border: 2px solid #fff;
                 opacity: 100%;
@@ -113,7 +118,7 @@
         grid-row: 3/5;
         width: 100%;
         height: 80%;
-        background-color: #5f6b6e;
+        background-color: $border-primary;
 
         img{
             width: 100%;
@@ -139,9 +144,9 @@
 
         h3{
             font-size: 3.2rem;
-            font: bold;
+            font-weight: 800;
             padding: 10px;
-            color: #0096a1;
+            color: $color-primario-btn;
             text-decoration: overline;
         }
 
@@ -163,12 +168,12 @@
         }
     }
     .main__coberturas-btn {
-        background-color: #0096a1;
+        background-color: $color-primario-btn;
         color: #fff;
         font-size: 16px;
         font: bold;
         padding: 12px 24px;
-        border: 2px solid #5f6b6e;
+        border: 2px solid $border-primary;
         cursor: pointer;
         border-radius: 5px;
         transition: all 1s;
@@ -205,7 +210,7 @@
                     left: 4%;
 
                     .main__rehab-btn:hover {
-                        background-color: #5f4ff7;
+                        background-color: $color-hover-btn;
                         border: 2px solid #fff;
                     }
                 }
@@ -215,7 +220,7 @@
                 grid-row: 5/7;
                 width: 100%;
                 height: 100%;
-                background-color: #5f6b6e;
+                background-color: $border-primary;
 
                 .main__esthetic-btn {
                     position: relative;
@@ -223,7 +228,7 @@
                     bottom: 60%;
 
                     .main__esthetic-btn:hover {
-                        background-color: #5f4ff7;
+                        background-color: $color-hover-btn;
                         border: 2px solid #fff;
                     }
                 }
@@ -325,5 +330,35 @@
 
     }
         
+}
+
+.logo__Whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:30px;
+    right:30px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+
+        i{
+            color: #fff;
+            font-size: 40px;
+            transition-property: color, transform;
+            transition-duration: 1s;
+        }
+
+        i:hover{
+            transform: scale(1.1);
+            color: #5f4ff7;
+        }
+
+        .icon__Whatsapp{
+            margin-top:10px;
+        }
 }
 

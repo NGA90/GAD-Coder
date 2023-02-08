@@ -17,7 +17,7 @@
             color: #fff;
             font-weight: bold;
             font-size: 25px;
-            text-shadow: 1px 1px 2px #0096a1;
+            text-shadow: 1px 1px 2px $color-primario-btn;
             opacity: 100%;
         }
     }
@@ -57,7 +57,7 @@
         .depilacion__Cards-content{
             h3{
                 text-transform: uppercase;
-                color: #0096a1;
+                color: $color-primario-btn;
                 font-weight: 800;
             }
         }
@@ -111,7 +111,7 @@
             color: #fff;
             font-weight: bold;
             font-size: 25px;
-            text-shadow: 1px 1px 2px #0096a1;
+            text-shadow: 1px 1px 2px $color-primario-btn;
             opacity: 100%;      
         }
     }
@@ -148,7 +148,7 @@
         .tratamientosFaciales__Cards-content{
             h3{
                 text-transform: uppercase;
-                color: #0096a1;
+                color: $color-primario-btn;
                 font-weight: 800;
             }
         }
@@ -205,7 +205,7 @@
             color: #fff;
             font-weight: bold;
             font-size: 25px;
-            text-shadow: 1px 1px 2px #0096a1;
+            text-shadow: 1px 1px 2px $color-primario-btn;
             opacity: 100%;      
         }
     }
@@ -245,7 +245,7 @@
         .tratamientosCorporales__Cards-content{
                 h3{
                     text-transform: uppercase;
-                    color: #0096a1;
+                    color: $color-primario-btn;
                     font-weight: 800;
                 }
         }
